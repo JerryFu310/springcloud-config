@@ -1,0 +1,9 @@
+server:
+  port: 8701
+
+spring:
+  application:
+    name: config-client
+
+#自定义属性
+name: config-client
