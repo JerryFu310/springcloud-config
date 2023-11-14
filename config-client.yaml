@@ -17,4 +17,4 @@ eureka:
       defaultZone: http://eureka:123456@localhost:9000/eureka   #curl风格eureka注册中心地址
 
 #自定义属性
-name: config-client
+name: config-client1
