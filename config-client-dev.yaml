@@ -7,4 +7,4 @@ spring:
 
 #自定义属性
 app:
-  name: config-client2
+  name: config-client1
