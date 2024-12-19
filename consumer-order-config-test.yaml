@@ -3,8 +3,8 @@ server:
 
 spring:
   application:
-    name: config-client
+    name: consumer-order-config
 
 #自定义属性
 app:
-  name: config-client
+  name: consumer-order-config

@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: config-client
+    name: consumer-order-config
     
 #指定eureka服务端地址,用于配置该服务到注册中心中
 eureka:
@@ -17,4 +17,4 @@ eureka:
       defaultZone: http://eureka:123456@localhost:9000/eureka   #curl风格eureka注册中心地址
 
 #自定义属性
-name: config-client1
+name: consumer-order-config
