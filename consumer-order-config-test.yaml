@@ -1,10 +1,4 @@
-server:
-  port: 8704
-
-spring:
-  application:
-    name: consumer-order-config
 
 #自定义属性
 app:
-  name: consumer-order-config
+  name: 赵六
