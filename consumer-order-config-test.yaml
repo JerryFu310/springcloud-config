@@ -1,0 +1,10 @@
+server:
+  port: 8704
+
+spring:
+  application:
+    name: config-client
+
+#自定义属性
+app:
+  name: config-client

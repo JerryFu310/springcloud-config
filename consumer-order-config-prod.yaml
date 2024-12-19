@@ -1,0 +1,20 @@
+server:
+  port: 8703
+
+spring:
+  application:
+    name: config-client
+
+#指定eureka服务端地址,用于配置该服务到注册中心中
+eureka:
+  instance:
+    #在rureka注册中心该实例显示ip,不显示主机
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+  #需要将该服务注册到哪个eureka注册中心里
+  client:
+    service-url:
+      defaultZone: http://eureka:123456@localhost:9000/eureka   #curl风格eureka注册中心地址
+
+#自定义属性
+name: config-client
